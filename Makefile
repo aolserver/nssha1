@@ -1,9 +1,16 @@
 # $Header$
 
 ifdef INST
-NSHOME ?= $(INST)
+  NSHOME ?= $(INST)
 else
-NSHOME ?= ../aolserver
+  ifdef NSBUILD
+    NSHOME=..
+  else
+    NSHOME=/usr/local/aolserver
+    ifneq ( $(shell [ -f $(NSHOME)/include/Makefile.module ] && echo ok), ok)
+      NSHOME ?= ../aolserver
+    endif
+  endif
 endif
 
 #
