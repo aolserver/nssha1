@@ -8,7 +8,7 @@ else
   else
     NSHOME=/usr/local/aolserver
     ifneq ( $(shell [ -f $(NSHOME)/include/Makefile.module ] && echo ok), ok)
-      NSHOME ?= ../aolserver
+      NSHOME = ../aolserver
     endif
   endif
 endif
