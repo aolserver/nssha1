@@ -3,7 +3,7 @@
 ifdef INST
   NSHOME ?= $(INST)
 else
-  ifdef NSBUILD
+  ifeq ( $(shell [ -f ../include/Makefile.module ] && echo ok), ok)
     NSHOME=..
   else
     NSHOME=/usr/local/aolserver
