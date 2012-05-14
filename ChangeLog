@@ -1,6 +1,17 @@
-2002-09-29  Scott Goodwin  <scott@scottg.net>
+2004-06-30  Vlad Seryakov <seryakov@users.sourceforge.net>
 
-	* nssha1: Release of nssha1-0.1.
+  * Makefile: *** empty log message ***
 
-	* nssha1: Initial import.
+  * Makefile: makefile NSHOME resolve
 
+  * Makefile: NSHOME resolution
+
+2004-06-29  Vlad Seryakov <seryakov@users.sourceforge.net>
+
+  * Makefile: Makefile guesses aolserver installation path
+
+2002-09-30  Scott Goodwin <scottg@users.sourceforge.net>
+
+  * ChangeLog: Release nssha1-0.1.
+
+  * ChangeLog, Makefile, nssha1.c: Initial revision
