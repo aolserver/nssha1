@@ -103,7 +103,7 @@ SHA1Cmd(ClientData context, Tcl_Interp *interp, int argc, char **argv);
  */
  
 int
-Ns_ModuleInit(char *hServer, char *hModule)
+NsSha1_ModInit(char *hServer, char *hModule)
 {
 
     return (Ns_TclInitInterps(hServer, SHA1InterpInit, NULL));

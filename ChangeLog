@@ -1,3 +1,10 @@
+2012-05-14  Dossy Shiobara <dossy@panoptic.com>
+
+  * .gitignore, ChangeLog, Makefile, nssha1.c: Update nssha1 for AOLserver
+  4.5.x build style.
+
+  * ChangeLog: Bring ChangeLog up to date.
+
 2004-06-30  Vlad Seryakov <seryakov@users.sourceforge.net>
 
   * Makefile: *** empty log message ***
